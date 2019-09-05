@@ -1,0 +1,154 @@
+Aarakocra
+Aasimar
+Deva
+Alaghi
+Armand
+Asherati
+Aurak
+Aventi
+Azer
+Azurin
+Baaz
+Bariaur
+Beastman
+Bhuka
+Bladeling
+Goblin
+Bozak
+Bugbear
+Bullywug
+Buomman
+Catfolk
+Centaur
+Changeling
+Chaos Gnome
+Chitine
+Crucian
+Darfellan
+Deep Imaskarri
+Diopsid
+Drow
+Dire Wereboar
+Lycanthrope
+Doppelganger
+Draconic creature
+Dracotaur
+Dragonkin
+Dromite
+Duergar 
+Gray Dwarf
+Duskling
+Dvati
+Elan
+Feral Gargun
+Fey'ri
+Firbolg
+Flind
+Fremlin
+Frost Giant
+Gargoyle
+Genasi
+Ghost
+Githyanki
+Githzerai
+Gloaming
+Gnoll
+Goblin
+Goblinoid
+Goliath
+Grimlock
+Hadozee
+Hagspawn
+Half-Celestial
+Half-Dragon
+Half-Fiend
+Half-Giant
+Half-Ogre
+Hamadryad
+Hellbred
+Hengeyokai
+Hill Giant
+Hobgoblin
+Illumian
+Jaebrin
+Janni (Genie)
+Kalashtar
+Kapak
+Kender
+Kenku
+Killoren
+Kir-Lanan
+Kobold
+Korobokuru
+Kuo-toa
+Lich
+Lizardfolk 
+Lizardman
+Loxo
+Loxodon
+Lupin
+Maenad
+Mephling
+Illithid
+Minotaur
+Modron
+Mongrelfolk
+Mul
+Neanderthal
+Neraphim
+Nezumi
+Ogre
+Orc
+Phrenic creature
+Pixie
+Pterran
+Rakasta
+Rakshasa
+Raptoran
+Revenant
+Rilkan
+Satyr
+Saurial
+Sea Elf
+Sea Kin
+Shadar-kai
+Shade
+Shadowswyft
+Sharakim
+Shardmind
+Shifter
+Simic Hybrid
+Sivak
+Skarn
+Skulk
+Slyth
+Spellscale
+Spiker
+Spirit Folk
+Stonechild
+Svirfneblin
+Swanmay
+Synad
+Tabaxi
+Taer
+Tanarukk
+Thri-Kreen
+Tibbit
+Triton
+Troglodyte
+Troll
+Uldra
+Unbodied
+Underfolk
+Vampire
+Vanara
+Vedalken
+Voadkyn
+Volodni
+Vryloka
+Warforged
+Wemic
+Wilden
+Wildren
+Xeph
+Yuan-ti
