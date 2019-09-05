@@ -1,0 +1,5 @@
+*.pyc
+conn.csv
+*.tmp
+config.php
+
