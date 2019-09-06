@@ -13,6 +13,11 @@
 						<a href="read.php"><strong>last</strong></a>
 					</td>
 				</tr>
+				<tr>
+					<td>
+						<a href="by_date.php"><strong>by date</strong></a>
+					</td>
+				</tr>
 			</tbody>
 		</table>
 	</center>

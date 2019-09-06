@@ -1,4 +1,6 @@
 <?php include "templates/header.php"; ?>
+
+
 <?php 
 require "config.php";
 
@@ -7,7 +9,9 @@ $conn = mysqli_connect($config['host'], $config['user'], $config['pw'], $config[
 if (mysqli_connect_errno()){
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
-$result = mysqli_query($conn, "SELECT * FROM gen ORDER BY gen_id desc LIMIT 10");
+$result = mysqli_query($conn, "SELECT s.scrap_ts, g.gen_id, g.gen_txt, g.gen_rating 
+	FROM scrap s INNER JOIN gen g ON g.scrap_id = s.scrap_id
+	ORDER BY scrap_ts DESC;");
 
 //Fetch all records
 $rows = mysqli_fetch_all($result,MYSQLI_ASSOC);
@@ -17,26 +21,28 @@ $rows = mysqli_fetch_all($result,MYSQLI_ASSOC);
 mysqli_free_result($result);
 mysqli_close($con);
 ?>
+
+
+
+
 <center>
     <table class="table table-bordered table-condensed">
-        <thead>
-            <tr>
-                <th>Number</th>
-                <th>Text</th>
-            </tr>
-        </thead>
         <tbody>
-            <?php foreach ($rows as $input): array_map('htmlentities', $input); ?>
-                <tr>
-                    <td><?php echo htmlspecialchars($input['gen_id']); ?></td>
-                    <td><?php echo htmlspecialchars($input['gen_txt']); ?></td>
-                </tr>
-            <?php endforeach; ?>
+        	<tr>
+        		<td>
+					<select name="date">
+					  <option selected="selected">Choose date</option>
+					  <?php
+					    foreach($rows as $date) { ?>
+					      <option value="<?php echo date('M j Y',strtotime($date['scrap_ts'])) ?>"><?php echo date('M j Y',strtotime($date['scrap_ts'])) ?></option>
+					  <?php
+					    } ?>
+					</select>
+        		</td>
+        	</tr>
         </tbody>
     </table>
 </center>
-
-
 
 
 <?php include "templates/footer.php"; ?>
